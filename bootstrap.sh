@@ -4,7 +4,7 @@ apt-get update
 
 
 # Install Apache and required Perl Modules for MMD-CMS
-apt-get install -y apache2 libcgi-session-perl libio-string-perl
+apt-get install -y apache2 xsltproc libcgi-session-perl libio-string-perl
 
 # Additional modules to enable OpenID for comments, but it's not clear 
 # that this sytem really works any more
